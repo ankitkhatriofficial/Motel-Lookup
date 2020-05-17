@@ -1,0 +1,29 @@
+
+<%
+	int i = 1;
+%>
+<c:forEach items="${rooms}" var="room">
+	<div class="room-container" id="card<%=i%>">
+		<div class="combined-container">
+			<div class="top-room-container">
+				<div class="hotel-info-wrapper">
+					<label>${room.getHotelName()}</label><br> <span>${room.getLocation()}</span>
+				</div>
+				<div class="img-container">
+					<img src="assets/imgs/${room.getUrl()}" alt="Hotel Img">
+				</div>
+			</div>
+			<div class="mid-room-container">
+				<label>Available Date</label> <label>Start @
+					${room.getPrice()}/-</label>
+			</div>
+		</div>
+		<div class="bottom-room-container">
+			<a href="#">Book Now <i class="fa fa-arrow-circle-o-right"
+				aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<%
+		i++;
+	%>
+</c:forEach>

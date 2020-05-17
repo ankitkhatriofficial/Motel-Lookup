@@ -1,0 +1,117 @@
+/* Filter  Section */
+.searchbox {
+	display: flex;
+}
+
+.main-container {
+	width: 90%;
+	margin: auto;
+	min-height: 90vh;
+}
+
+.filter-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.left-filter-container .select {
+	height: 30px;
+	width: 130px;
+	padding: 0 10px;
+}
+
+.left-filter-container .date {
+	height: 31px;
+	width: 150px;
+}
+
+.right-filter-container {
+	width: 220px;
+}
+
+.searchbox {
+	width: 130px;
+	height: 30px;
+}
+
+.searchbox input {
+	padding: 0 10px;
+}
+
+.search-btn i {
+	line-height: 30px;
+	background-color: #1f4280;
+	color: white;
+	width: 30px;
+	height: 30px;
+	padding: 0 5px;
+	font-size: 1.1em;
+}
+
+/* card Section */
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.room-container {
+	width: 350px;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1px solid #b2b3a6;
+	background-color: white;
+}
+
+.combined-container {
+	padding: 10px;
+}
+
+.top-room-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-room-container label {
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+.img-container {
+	width: 150px;
+	height: 100px;
+}
+
+.img-container img {
+	width: 100%;
+	height: 100%;
+}
+
+.mid-room-container {
+	display: flex;
+	padding: 6px 0;
+	justify-content: space-between;
+}
+
+.mid-room-container label {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.bottom-room-container {
+	background-color: #1f4280;
+	text-align: center;
+	font-size: 1.9em;
+	padding: 5px 0;
+}
+
+.bottom-room-container a {
+	text-decoration: none;
+	color: white;
+}
+
+.bottom-room-container i {
+	font-size: 24px;
+}

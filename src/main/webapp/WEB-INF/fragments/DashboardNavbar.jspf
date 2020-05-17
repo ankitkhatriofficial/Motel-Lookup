@@ -1,0 +1,21 @@
+<nav>
+	<div class="navbar">
+		<div class="left-nav">
+			<div class="logo"></div>
+			<div class="logo-heading">
+				<a href="/">Motel-Lookup</a>
+			</div>
+			<ul>
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+				<li><a href="https://www.github.com/khatri09">Github Codes</a></li>
+			</ul>
+		</div>
+		<div class="right-nav">
+			<div class="login-container">
+				<a href="/logout">Logout</a>
+			</div>
+		</div>
+	</div>
+</nav>

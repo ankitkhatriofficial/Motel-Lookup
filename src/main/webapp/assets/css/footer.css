@@ -1,0 +1,21 @@
+footer{
+
+    background-color: #1f4280;
+    height:13vh;
+}
+
+footer p{
+    padding: 8px 0;
+    color: white;
+    font-size: 18px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    opacity: .8;
+}

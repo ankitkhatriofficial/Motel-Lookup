@@ -1,0 +1,62 @@
+nav {
+	background-color: #1f4280;
+	width: 100%;
+	height: 45px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+}
+
+nav ul {
+	color: white;
+}
+
+nav ul li {
+	cursor: pointer;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover, nav ul li:hover {
+	opacity: .8;
+}
+
+.logo {
+	background: url("../imgs/logo.svg") no-repeat;
+	width: 40px;
+	height: 30px;
+}
+
+.logo-heading {
+	line-height: 40px;
+	color: white;
+	padding: 0 5px;
+}
+
+.left-nav {
+	display: flex;
+}
+
+.left-nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.left-nav ul li {
+	padding: 10px 20px;
+}
+
+.right-nav {
+	display: flex;
+}
+
+.login-container, .register-container {
+	padding: 10px 20px;
+}
